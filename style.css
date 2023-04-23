@@ -1,0 +1,47 @@
+/* Ponemos de 0 todo */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px; /*Tamaño letra*/
+    }
+
+/*Le doy una fuente*/
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
+    /* Llamo a la etiqueta nav y coloco display flex para colocar accesos al lado del logo*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*Alinear items al centro*/
+    background-color:rgba(227, 196, 95, 0.803) /*Le doy fondo al nav*/
+    
+}
+
+img{
+    width: 170px; /* ancho de la imagen */
+  height: auto;
+  margin-left: 20px;
+}
+
+ul a {
+    padding: 20px; /*Recuadro tamaño*/
+    color:black; /*Color a los accesos*/
+    text-decoration: none; /*Sacar subrayado  al texto*/
+    /*Agrego recuadro sombra*/
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 10px, rgba(0, 0, 0, 0.12) 10px 10px 10px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 0px 0px, rgba(0, 0, 0, 0.09) 0px 0px 0px;
+    }
+/*Para sacar las bolitas de al lado de los accesos*/
+ul {
+    list-style: none;
+/*Le doy display flex al ul (accesos) para que quede uno al lado del otro*/
+    display: flex;
+    gap: 20px; /*para separar accesos*/
+    margin-right: 20px;
+    }
+a:hover{
+color:teal; /*para cuando coloco el cursor me cambie de color*/
+}
+
